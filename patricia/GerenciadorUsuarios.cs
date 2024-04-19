@@ -8,12 +8,12 @@ namespace patricia
 {
     internal class GerenciadorUsuarios
     {
-        // Armazenar os usuários em um dicionário para facilitar a busca
+        
         private Dictionary<string, string> usuarios;
 
         public GerenciadorUsuarios()
         {
-            // Inicializar o dicionário de usuários
+            // Inicializar 
             usuarios = new Dictionary<string, string>();
         }
 

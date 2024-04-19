@@ -34,7 +34,7 @@ namespace patricia
             // Verificar se o arquivo CSV já existe
             if (!File.Exists(arquivoCSV))
             {
-                // Se não existir, criar o arquivo e adicionar o cabeçalho
+                
                 using (StreamWriter sw = File.CreateText(arquivoCSV))
                 {
                     sw.WriteLine("Nome,Email,Senha");

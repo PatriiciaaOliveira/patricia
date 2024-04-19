@@ -15,7 +15,6 @@ namespace patricia
     {
         private string relatorioFilePath = "relatorio.txt";
 
-        // Declare os objetos TextBox e DataGridView
         private TextBox txtRelatorio;
         private DataGridView dgvRelatorio;
 
@@ -26,7 +25,7 @@ namespace patricia
 
         private void frm_Reserva_Load(object sender, EventArgs e)
         {
-            // Carregar os dados do arquivo de texto para o DataGridView
+            // Carregar os dados do arquivo 
             CarregarRelatorio();
         }
 
@@ -34,19 +33,18 @@ namespace patricia
             // Verificar se o arquivo existe
             if (File.Exists(relatorioFilePath))
             {
-                // Ler as linhas do arquivo
+                
                 string[] linhas = File.ReadAllLines(relatorioFilePath);
 
-                // Limpar o DataGridView
+                
             
 
-                // Adicionar cada linha como uma nova linha no DataGridView
+                
                 foreach (string linha in linhas)
                 {
-                    // Dividir a linha em colunas usando a vírgula como delimitador
                     string[] colunas = linha.Split(',');
 
-                    // Adicionar a linha ao DataGridView
+                    
                     
                 }
             }

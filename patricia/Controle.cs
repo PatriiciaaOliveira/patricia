@@ -18,12 +18,11 @@ namespace patricia
 
         public bool Acessar(string login, string senha)
         {
-            // Aqui você pode implementar a lógica para verificar as credenciais de login
-            // Por exemplo, comparar com valores fixos
+            
             const string usuarioCorreto = "usuario";
             const string senhaCorreta = "senha";
 
-            // Verificar se o login e a senha são válidos
+            
             if (login == usuarioCorreto && senha == senhaCorreta)
             {
                 mensagem = "Login realizado com sucesso!";

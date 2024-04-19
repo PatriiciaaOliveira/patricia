@@ -72,7 +72,6 @@
       <DependentUpon>frm_Reserva.cs</DependentUpon>
     </Compile>
     <Compile Include="GerenciadorUsuarios.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_CadastreSe.resx">
       <DependentUpon>frm_CadastreSe.cs</DependentUpon>
@@ -95,6 +94,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="..\..\..\..\..\Desktop\Trabalho pimV.zip" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

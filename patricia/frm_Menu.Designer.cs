@@ -197,7 +197,7 @@ namespace patricia
             string senha = txtSenha1.Text;
             string confirmacaoSenha = txtConfSenha.Text;
 
-            // Verifica se a senha e a confirmação de senha coincidem
+            // Verifica se a senha e a confirmação 
             if (senha != confirmacaoSenha)
             {
                 MessageBox.Show("A senha e a confirmação de senha não coincidem.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -214,7 +214,7 @@ namespace patricia
             // Chama o método para adicionar o usuário
             try
             {
-                // Corrigido: Chamando o método AdicionarUsuario() sem atribuir seu resultado a uma variável
+                
                 gerenciadorUsuarios.AdicionarUsuario(nome, email, senha);
                 MessageBox.Show("Usuário cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
